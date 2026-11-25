@@ -44,6 +44,9 @@ import { SportsMedicineConsultationPage } from './pages/SportsMedicineConsultati
 import { UpperLimbSurgeryPage } from './pages/UpperLimbSurgeryPage';
 import { ShoulderSurgeryPage } from './pages/ShoulderSurgeryPage';
 import { RotatorCuffRepairPage } from './pages/RotatorCuffRepairPage';
+import { CarpalTunnelReleasePage } from './pages/CarpalTunnelReleasePage';
+import { HandWristSurgeryPage } from './pages/HandWristSurgeryPage';
+import { ElbowSurgeryPage } from './pages/ElbowSurgeryPage';
 
 const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.ReactElement => {
   if (item.pageId === 'P05' || item.canonicalPath === '/joint-replacement-surgery/') {
@@ -99,6 +102,15 @@ const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.Reac
   }
   if (item.pageId === 'P24' || item.canonicalPath === '/rotator-cuff-repair/') {
     return <RotatorCuffRepairPage />;
+  }
+  if (item.pageId === 'P25' || item.canonicalPath === '/carpal-tunnel-release/') {
+    return <CarpalTunnelReleasePage />;
+  }
+  if (item.pageId === 'P26' || item.canonicalPath === '/hand-wrist-surgery/') {
+    return <HandWristSurgeryPage />;
+  }
+  if (item.pageId === 'P27' || item.canonicalPath === '/elbow-surgery/') {
+    return <ElbowSurgeryPage />;
   }
   return getComponentForTemplate(item.template);
 };
