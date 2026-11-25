@@ -29,6 +29,9 @@ import { NotFoundPage } from './pages/NotFoundPage';
 import { JointReplacementPage } from './pages/JointReplacementPage';
 import { KneeReplacementPage } from './pages/KneeReplacementPage';
 import { HipReplacementPage } from './pages/HipReplacementPage';
+import { PartialKneeReplacementPage } from './pages/PartialKneeReplacementPage';
+import { RevisionJointReplacementPage } from './pages/RevisionJointReplacementPage';
+import { ArthroscopicSurgeryPage } from './pages/ArthroscopicSurgeryPage';
 
 const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.ReactElement => {
   if (item.pageId === 'P05' || item.canonicalPath === '/joint-replacement-surgery/') {
@@ -39,6 +42,15 @@ const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.Reac
   }
   if (item.pageId === 'P07' || item.canonicalPath === '/hip-replacement-surgery/') {
     return <HipReplacementPage />;
+  }
+  if (item.pageId === 'P09' || item.canonicalPath === '/partial-knee-replacement/') {
+    return <PartialKneeReplacementPage />;
+  }
+  if (item.pageId === 'P10' || item.canonicalPath === '/revision-joint-replacement/') {
+    return <RevisionJointReplacementPage />;
+  }
+  if (item.pageId === 'P11' || item.canonicalPath === '/arthroscopic-surgery/') {
+    return <ArthroscopicSurgeryPage />;
   }
   return getComponentForTemplate(item.template);
 };
