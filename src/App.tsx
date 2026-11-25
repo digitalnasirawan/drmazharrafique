@@ -38,6 +38,9 @@ import { MeniscusRepairPage } from './pages/MeniscusRepairPage';
 import { CartilageRestorationPage } from './pages/CartilageRestorationPage';
 import { SportsInjurySurgeryPage } from './pages/SportsInjurySurgeryPage';
 import { AclReconstructionPage } from './pages/AclReconstructionPage';
+import { LigamentReconstructionPage } from './pages/LigamentReconstructionPage';
+import { SportsInjuryTreatmentPage } from './pages/SportsInjuryTreatmentPage';
+import { SportsMedicineConsultationPage } from './pages/SportsMedicineConsultationPage';
 
 const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.ReactElement => {
   if (item.pageId === 'P05' || item.canonicalPath === '/joint-replacement-surgery/') {
@@ -75,6 +78,15 @@ const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.Reac
   }
   if (item.pageId === 'P18' || item.canonicalPath === '/acl-reconstruction/') {
     return <AclReconstructionPage />;
+  }
+  if (item.pageId === 'P19' || item.canonicalPath === '/ligament-reconstruction/') {
+    return <LigamentReconstructionPage />;
+  }
+  if (item.pageId === 'P20' || item.canonicalPath === '/sports-injury-treatment-lahore/') {
+    return <SportsInjuryTreatmentPage />;
+  }
+  if (item.pageId === 'P21' || item.canonicalPath === '/sports-medicine-consultation/') {
+    return <SportsMedicineConsultationPage />;
   }
   return getComponentForTemplate(item.template);
 };
