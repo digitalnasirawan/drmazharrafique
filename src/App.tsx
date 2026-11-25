@@ -32,6 +32,9 @@ import { HipReplacementPage } from './pages/HipReplacementPage';
 import { PartialKneeReplacementPage } from './pages/PartialKneeReplacementPage';
 import { RevisionJointReplacementPage } from './pages/RevisionJointReplacementPage';
 import { ArthroscopicSurgeryPage } from './pages/ArthroscopicSurgeryPage';
+import { HipArthroscopyPage } from './pages/HipArthroscopyPage';
+import { ShoulderArthroscopyPage } from './pages/ShoulderArthroscopyPage';
+import { MeniscusRepairPage } from './pages/MeniscusRepairPage';
 
 const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.ReactElement => {
   if (item.pageId === 'P05' || item.canonicalPath === '/joint-replacement-surgery/') {
@@ -51,6 +54,15 @@ const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.Reac
   }
   if (item.pageId === 'P11' || item.canonicalPath === '/arthroscopic-surgery/') {
     return <ArthroscopicSurgeryPage />;
+  }
+  if (item.pageId === 'P13' || item.canonicalPath === '/hip-arthroscopy/') {
+    return <HipArthroscopyPage />;
+  }
+  if (item.pageId === 'P14' || item.canonicalPath === '/shoulder-arthroscopy/') {
+    return <ShoulderArthroscopyPage />;
+  }
+  if (item.pageId === 'P15' || item.canonicalPath === '/meniscus-repair/') {
+    return <MeniscusRepairPage />;
   }
   return getComponentForTemplate(item.template);
 };
