@@ -25,6 +25,24 @@ import { SurgeryMcqsPage } from './pages/SurgeryMcqsPage';
 import { LegalPage } from './pages/LegalPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 
+// Dedicated Full-Content Pages (Batch Implementations)
+import { JointReplacementPage } from './pages/JointReplacementPage';
+import { KneeReplacementPage } from './pages/KneeReplacementPage';
+import { HipReplacementPage } from './pages/HipReplacementPage';
+
+const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.ReactElement => {
+  if (item.pageId === 'P05' || item.canonicalPath === '/joint-replacement-surgery/') {
+    return <JointReplacementPage />;
+  }
+  if (item.pageId === 'P06' || item.canonicalPath === '/knee-replacement-surgery/') {
+    return <KneeReplacementPage />;
+  }
+  if (item.pageId === 'P07' || item.canonicalPath === '/hip-replacement-surgery/') {
+    return <HipReplacementPage />;
+  }
+  return getComponentForTemplate(item.template);
+};
+
 const getComponentForTemplate = (template: PageTemplate): React.ReactElement => {
   switch (template) {
     case 'Homepage':
@@ -76,7 +94,7 @@ export function App() {
           <Routes>
             {/* Generate routes for all 57 pages from centralized registry */}
             {routesRegistry.flatMap((item) => {
-              const element = getComponentForTemplate(item.template);
+              const element = getComponentForRoute(item);
               const pathWithSlash = item.canonicalPath;
               const pathWithoutSlash = item.canonicalPath === '/' 
                 ? '/' 
