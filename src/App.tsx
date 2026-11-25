@@ -41,6 +41,9 @@ import { AclReconstructionPage } from './pages/AclReconstructionPage';
 import { LigamentReconstructionPage } from './pages/LigamentReconstructionPage';
 import { SportsInjuryTreatmentPage } from './pages/SportsInjuryTreatmentPage';
 import { SportsMedicineConsultationPage } from './pages/SportsMedicineConsultationPage';
+import { UpperLimbSurgeryPage } from './pages/UpperLimbSurgeryPage';
+import { ShoulderSurgeryPage } from './pages/ShoulderSurgeryPage';
+import { RotatorCuffRepairPage } from './pages/RotatorCuffRepairPage';
 
 const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.ReactElement => {
   if (item.pageId === 'P05' || item.canonicalPath === '/joint-replacement-surgery/') {
@@ -87,6 +90,15 @@ const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.Reac
   }
   if (item.pageId === 'P21' || item.canonicalPath === '/sports-medicine-consultation/') {
     return <SportsMedicineConsultationPage />;
+  }
+  if (item.pageId === 'P22' || item.canonicalPath === '/upper-limb-surgery/') {
+    return <UpperLimbSurgeryPage />;
+  }
+  if (item.pageId === 'P23' || item.canonicalPath === '/shoulder-surgery/') {
+    return <ShoulderSurgeryPage />;
+  }
+  if (item.pageId === 'P24' || item.canonicalPath === '/rotator-cuff-repair/') {
+    return <RotatorCuffRepairPage />;
   }
   return getComponentForTemplate(item.template);
 };
