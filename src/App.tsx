@@ -53,6 +53,9 @@ import { BoneFractureRepairPage } from './pages/BoneFractureRepairPage';
 import { OrthopaedicTraumaSurgeryPage } from './pages/OrthopaedicTraumaSurgeryPage';
 import { FootAnklePaediatricPage } from './pages/FootAnklePaediatricPage';
 import { FootAnkleSurgeryPage } from './pages/FootAnkleSurgeryPage';
+import { SpineBackPainPage } from './pages/SpineBackPainPage';
+import { SpineSurgeryPage } from './pages/SpineSurgeryPage';
+import { BackPainTreatmentPage } from './pages/BackPainTreatmentPage';
 
 const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.ReactElement => {
   if (item.pageId === 'P05' || item.canonicalPath === '/joint-replacement-surgery/') {
@@ -135,6 +138,15 @@ const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.Reac
   }
   if (item.pageId === 'P33' || item.canonicalPath === '/foot-ankle-surgery/') {
     return <FootAnkleSurgeryPage />;
+  }
+  if (item.pageId === 'P36' || item.canonicalPath === '/spine-back-pain/') {
+    return <SpineBackPainPage />;
+  }
+  if (item.pageId === 'P37' || item.canonicalPath === '/spine-surgery/') {
+    return <SpineSurgeryPage />;
+  }
+  if (item.pageId === 'P38' || item.canonicalPath === '/back-pain-treatment/') {
+    return <BackPainTreatmentPage />;
   }
   return getComponentForTemplate(item.template);
 };
