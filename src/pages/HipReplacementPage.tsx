@@ -100,7 +100,7 @@ export const HipReplacementPage: React.FC = () => {
       </nav>
 
       {/* B3 — Hero Section */}
-      <section className="bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] border-b border-[#E8E5DE] py-12 lg:py-16">
+      <section className="bg-white border-b border-[#E8E5DE] py-12 lg:py-16">
         <div className="site-container">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             
@@ -236,7 +236,7 @@ export const HipReplacementPage: React.FC = () => {
       </section>
 
       {/* S02: Signs That Your Hip Needs Medical Attention */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -396,7 +396,7 @@ export const HipReplacementPage: React.FC = () => {
       </section>
 
       {/* S04: How Does a Doctor Check Your Hip? */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -554,7 +554,7 @@ export const HipReplacementPage: React.FC = () => {
       </section>
 
       {/* S06: Types of Hip Replacement Surgery */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -684,7 +684,7 @@ export const HipReplacementPage: React.FC = () => {
       </section>
 
       {/* S08: Benefits and Risks of Hip Replacement */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -859,7 +859,7 @@ export const HipReplacementPage: React.FC = () => {
       </section>
 
       {/* S10: How Can You Prepare for Hip Replacement? */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -998,7 +998,7 @@ export const HipReplacementPage: React.FC = () => {
       </section>
 
       {/* S12: Explore Related Hip & Joint Care */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -1143,7 +1143,7 @@ export const HipReplacementPage: React.FC = () => {
       </section>
 
       {/* B5 — Frequently Asked Questions */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-3xl mx-auto space-y-8">
             <div className="text-center space-y-2">
@@ -1196,7 +1196,7 @@ export const HipReplacementPage: React.FC = () => {
       {/* S14: Get Your Hip Pain Checked */}
       <section className="py-14 lg:py-20 bg-white">
         <div className="site-container">
-          <div className="max-w-3xl mx-auto text-center space-y-6 p-8 sm:p-12 rounded-2xl bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] border border-[#E8E5DE] shadow-sm">
+          <div className="max-w-3xl mx-auto text-center space-y-6 p-8 sm:p-12 rounded-2xl bg-white border border-[#E8E5DE] shadow-sm">
             <h2 
               className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#111111]"
               style={{ fontFamily: "'Maven Pro', sans-serif" }}

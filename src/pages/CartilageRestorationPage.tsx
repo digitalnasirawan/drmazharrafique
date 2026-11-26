@@ -107,7 +107,7 @@ export const CartilageRestorationPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-[#111111] font-sans">
+    <div className="min-h-screen bg-white text-[#111111] font-['Raleway',sans-serif]">
       {/* Quick Appointment Modal */}
       <QuickAppointmentModal 
         isOpen={appointmentModalOpen} 
@@ -115,7 +115,7 @@ export const CartilageRestorationPage: React.FC = () => {
       />
 
       {/* B3 — HERO SECTION */}
-      <section className="relative bg-[#FAF8F2] border-b border-[#E8E5DE] py-14 md:py-20">
+      <section className="relative bg-white border-b border-[#E8E5DE] py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-7">
@@ -238,7 +238,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* S02 — WHAT HAPPENS WHEN JOINT CARTILAGE IS DAMAGED? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">02</span>
@@ -325,7 +325,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* S04 — COMMON SIGNS OF CARTILAGE DAMAGE */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">04</span>
@@ -424,7 +424,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* S06 — DIFFERENT TYPES OF CARTILAGE DAMAGE */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">06</span>
@@ -509,7 +509,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* S08 — CAN CARTILAGE PROBLEMS BE MANAGED WITHOUT SURGERY? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">08</span>
@@ -582,7 +582,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* S10 — WHAT IS CARTILAGE RESTORATION SURGERY? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">10</span>
@@ -656,7 +656,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* S12 — DIFFERENT CARTILAGE RESTORATION PROCEDURES */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">12</span>
@@ -742,7 +742,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* S14 — CARTILAGE RESTORATION VS KNEE REPLACEMENT */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">14</span>
@@ -845,7 +845,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* S16 — BENEFITS AND RISKS OF CARTILAGE RESTORATION */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">16</span>
@@ -928,7 +928,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* S18 — WHY IS REHABILITATION IMPORTANT? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">18</span>
@@ -1007,7 +1007,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* S20 — WHAT TO EXPECT DURING YOUR JOINT CONSULTATION */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">20</span>
@@ -1111,7 +1111,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* S22 — GET YOUR JOINT PAIN CHECKED IN LAHORE */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">22</span>
@@ -1206,7 +1206,7 @@ export const CartilageRestorationPage: React.FC = () => {
       </section>
 
       {/* FINAL APPOINTMENT CTA */}
-      <section className="py-16 bg-[#FAF8F2]">
+      <section className="py-16 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Get Your Joint Pain Checked

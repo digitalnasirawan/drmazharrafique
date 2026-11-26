@@ -123,7 +123,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </nav>
 
       {/* B3 — HERO SECTION */}
-      <section className="relative bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] py-12 sm:py-16 border-b border-[#E8E5DE]">
+      <section className="relative bg-white py-12 sm:py-16 border-b border-[#E8E5DE]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-4">
@@ -196,7 +196,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* S02 — COMMON TYPES OF SPORTS INJURIES */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-6" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Common Types of Sports Injuries
@@ -279,7 +279,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* S04 — COMMON SIGNS OF A SPORTS INJURY */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Common Signs of a Sports Injury
@@ -340,7 +340,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* S06 — COMMON KNEE SPORTS INJURIES */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Common Knee Sports Injuries
@@ -405,7 +405,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* S08 — WHAT IS A MUSCLE STRAIN? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Is a Muscle Strain?
@@ -457,7 +457,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* S10 — WHAT HAPPENS WHEN A LIGAMENT IS INJURED? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Happens When a Ligament Is Injured?
@@ -527,7 +527,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* S12 — HOW DOES A DOCTOR CHECK A SPORTS INJURY? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             How Does a Doctor Check a Sports Injury?
@@ -601,7 +601,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* S14 — WHAT SHOULD YOU DO AFTER A SPORTS INJURY? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Should You Do After a Sports Injury?
@@ -667,7 +667,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* S16 — WHEN DOES A SPORTS INJURY NEED SURGERY? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             When Does a Sports Injury Need Surgery?
@@ -716,7 +716,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* S18 — WHEN CAN YOU RETURN TO SPORTS? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             When Can You Return to Sports?
@@ -776,7 +776,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* S20 — CONSULTANT ORTHOPAEDIC SURGEON IN LAHORE */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="p-6 rounded-2xl bg-white border border-[#E8E5DE]">
             <h2 className="text-2xl font-bold text-[#111111] mb-2" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
@@ -837,7 +837,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* S22 — EXPLORE RELATED SPORTS INJURY TREATMENTS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#111111] mb-6 text-center" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Explore Related Sports Injury Treatments
@@ -904,7 +904,7 @@ export const SportsInjuryTreatmentPage: React.FC = () => {
       </section>
 
       {/* B5 — FAQS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-2">

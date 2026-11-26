@@ -131,7 +131,7 @@ export const SpineSurgeryPage: React.FC = () => {
   ];
 
   return (
-    <div className="bg-[#FAF8F2] text-slate-800 font-['Raleway',sans-serif]">
+    <div className="bg-white text-[#111111] font-['Raleway',sans-serif]">
       {/* B3 — HERO SECTION */}
       <section className="bg-white border-b border-[#E8E5DE] pt-8 pb-12 sm:pt-12 sm:pb-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -175,7 +175,7 @@ export const SpineSurgeryPage: React.FC = () => {
       {/* S01 & S02 — WHAT IS SPINE SURGERY & ANATOMY */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S01</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               What Is Spine Surgery?
@@ -193,7 +193,7 @@ export const SpineSurgeryPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S02</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               How Does the Spine Work?
@@ -210,7 +210,7 @@ export const SpineSurgeryPage: React.FC = () => {
       {/* S03, S04, S05, S06, S07, S08, S09 — CONDITIONS REQUIRING ASSESSMENT */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S03 TO S09</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Spine Conditions That May Warrant Surgical Assessment
@@ -308,7 +308,7 @@ export const SpineSurgeryPage: React.FC = () => {
             </p>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S10</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               When Should You See a Doctor for Routine Spine Assessment?
@@ -332,7 +332,7 @@ export const SpineSurgeryPage: React.FC = () => {
       {/* S12, S13, S14, S15 — ASSESSMENT, TESTS & CONSERVATIVE CARE FIRST */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S12 TO S15</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Assessment, Imaging Tests & Non-Surgical Care First
@@ -366,7 +366,7 @@ export const SpineSurgeryPage: React.FC = () => {
       {/* S16 TO S19 — TYPES OF SPINE SURGERY */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S16 TO S19: SURGICAL PROCEDURES</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               What Types of Spine Surgery Exist?
@@ -411,7 +411,7 @@ export const SpineSurgeryPage: React.FC = () => {
       {/* S20, S21, S22, S23 — RISKS TABLE, PREPARATION & RECOVERY */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S21: RISKS AND COMPLICATIONS</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               What Are the Possible Risks of Spine Surgery?
@@ -469,7 +469,7 @@ export const SpineSurgeryPage: React.FC = () => {
       {/* S24 — DOCTOR PROFILE & 6 RELATED SERVICES */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S24</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Orthopaedic Assessment for Spine & Back Problems in Lahore

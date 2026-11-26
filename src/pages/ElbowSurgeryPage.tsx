@@ -120,7 +120,7 @@ export const ElbowSurgeryPage: React.FC = () => {
   ];
 
   return (
-    <div className="bg-[#FAF8F2] text-slate-800 font-['Raleway',sans-serif]">
+    <div className="bg-white text-[#111111] font-['Raleway',sans-serif]">
       {/* B3 — HERO SECTION */}
       <section className="bg-white border-b border-[#E8E5DE] pt-8 pb-12 sm:pt-12 sm:pb-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -160,7 +160,7 @@ export const ElbowSurgeryPage: React.FC = () => {
       {/* S01 — HOW DOES YOUR ELBOW WORK? */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S01</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               How Does Your Elbow Work?
@@ -644,7 +644,7 @@ export const ElbowSurgeryPage: React.FC = () => {
       {/* S21 — WHY IS REHABILITATION CRUCIAL? */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S21</span>
             <h2 className="text-2xl font-bold text-[#111111] mt-1 mb-3" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Why Is Rehabilitation Crucial After Elbow Surgery?
@@ -765,7 +765,7 @@ export const ElbowSurgeryPage: React.FC = () => {
       </section>
 
       {/* B5 — FAQS ACCORDION */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-2">

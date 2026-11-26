@@ -302,7 +302,7 @@ export const HomePage: React.FC = () => {
       {/* =========================================================================
           B3 — HERO SECTION (MOBILE: IMAGE FIRST, DESKTOP: TEXT LEFT, IMAGE RIGHT)
           ========================================================================= */}
-      <section className="relative bg-gradient-to-b from-[#FAF8F2] via-white to-white border-b border-[#E8E5DE] pt-10 pb-12 lg:pt-16 lg:pb-20 overflow-hidden">
+      <section className="relative bg-white border-b border-[#E8E5DE] pt-10 pb-12 lg:pt-16 lg:pb-20 overflow-hidden">
         
         {/* Subtle geometric luxury pattern */}
         <div 
@@ -440,7 +440,7 @@ export const HomePage: React.FC = () => {
       {/* =========================================================================
           S01 — QUALIFICATIONS & PROFESSIONAL CREDENTIALS
           ========================================================================= */}
-      <section className="bg-[#FAF8F2] border-b border-[#E8E5DE] py-12 sm:py-16">
+      <section className="bg-white border-b border-[#E8E5DE] py-12 sm:py-16">
         <div className="site-container">
           <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
             <span className="text-[11px] font-bold uppercase tracking-widest text-[#BE8C1D] block">
@@ -598,7 +598,7 @@ export const HomePage: React.FC = () => {
       {/* =========================================================================
           S04 — EIGHT SERVICE CATEGORIES
           ========================================================================= */}
-      <section className="section-padding bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="text-center max-w-3xl mx-auto mb-12 space-y-2">
             <span className="text-xs font-semibold text-[#BE8C1D] uppercase tracking-wider block">
@@ -755,7 +755,7 @@ export const HomePage: React.FC = () => {
       {/* =========================================================================
           S07 — WHY CONSULT DR. MAZHAR RAFIQUE
           ========================================================================= */}
-      <section className="section-padding bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
@@ -913,7 +913,7 @@ export const HomePage: React.FC = () => {
       {/* =========================================================================
           S11 — GALLERY & VIDEO PREVIEW
           ========================================================================= */}
-      <section className="section-padding bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           
           <div className="text-center max-w-2xl mx-auto mb-10 space-y-2">
@@ -1086,7 +1086,7 @@ export const HomePage: React.FC = () => {
       {/* =========================================================================
           S12 — PRACTICE LOCATION & CLINIC VISITS (HIGH CRO OPTIMIZATION)
           ========================================================================= */}
-      <section className="section-padding bg-[#FAF8F2] border-b border-[#E8E5DE]" id="practice-location">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]" id="practice-location">
         <div className="site-container">
           
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-stretch">
@@ -1286,7 +1286,7 @@ export const HomePage: React.FC = () => {
       {/* =========================================================================
           S13 — FINAL APPOINTMENT CTA
           ========================================================================= */}
-      <section className="section-padding bg-gradient-to-r from-[#FAF8F2] via-white to-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-3xl mx-auto text-center space-y-5">
             

@@ -27,7 +27,7 @@ export const ServiceCategoryPage: React.FC = () => {
     <div className="flex flex-col w-full">
       
       {/* Category Header */}
-      <section className="bg-[#FAF8F2] border-b border-[#E8E5DE] py-10 lg:py-14">
+      <section className="bg-white border-b border-[#E8E5DE] py-10 lg:py-14">
         <div className="site-container">
           <div className="max-w-3xl space-y-3">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white border border-[#E8E5DE] text-xs font-semibold text-[#BE8C1D] uppercase tracking-wider">

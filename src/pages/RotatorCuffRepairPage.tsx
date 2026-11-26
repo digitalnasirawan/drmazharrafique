@@ -134,7 +134,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </nav>
 
       {/* B3 — HERO SECTION */}
-      <section className="relative bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] py-12 sm:py-16 border-b border-[#E8E5DE]">
+      <section className="relative bg-white py-12 sm:py-16 border-b border-[#E8E5DE]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-4">
@@ -201,7 +201,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* S02 — WHAT HAPPENS WHEN A ROTATOR CUFF TENDON TEARS? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Happens When a Rotator Cuff Tendon Tears?
@@ -258,7 +258,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* S04 — WHAT CAUSES ROTATOR CUFF TEARS? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Causes Rotator Cuff Tears?
@@ -322,7 +322,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* S06 — WHEN SHOULD YOU GET SHOULDER PAIN CHECKED? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-6" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             When Should You Get Shoulder Pain Checked?
@@ -380,7 +380,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* S08 — DO YOU NEED AN MRI OR ULTRASOUND? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Do You Need an MRI or Ultrasound?
@@ -430,7 +430,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* S10 — WHEN MIGHT A ROTATOR CUFF TEAR NEED SURGERY? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             When Might a Rotator Cuff Tear Need Surgery?
@@ -465,7 +465,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* S12 — WHAT HAPPENS DURING ROTATOR CUFF REPAIR? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-6" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Happens During Rotator Cuff Repair?
@@ -532,7 +532,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* S14 — HOW CAN YOU PREPARE FOR ROTATOR CUFF REPAIR? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             How Can You Prepare for Rotator Cuff Repair?
@@ -583,7 +583,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* S16 — WHAT ARE THE RISKS OF ROTATOR CUFF REPAIR? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Are the Risks of Rotator Cuff Repair?
@@ -618,7 +618,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* S18 — WHY IS PHYSIOTHERAPY IMPORTANT AFTER REPAIR? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Why Is Physiotherapy Important After Repair?
@@ -659,7 +659,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* S20 — CAN A ROTATOR CUFF TENDON RE-TEAR? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Can a Rotator Cuff Tendon Re-Tear?
@@ -706,7 +706,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* S22 — EXPLORE RELATED SHOULDER TREATMENTS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#111111] mb-6 text-center" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Explore Related Shoulder Treatments
@@ -770,7 +770,7 @@ export const RotatorCuffRepairPage: React.FC = () => {
       </section>
 
       {/* B5 — FAQS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-2">

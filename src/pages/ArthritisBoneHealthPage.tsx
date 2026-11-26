@@ -133,7 +133,7 @@ export const ArthritisBoneHealthPage: React.FC = () => {
 ];
 
   return (
-    <div className="bg-[#FAF8F2] text-slate-800 font-['Raleway',sans-serif]">
+    <div className="bg-white text-[#111111] font-['Raleway',sans-serif]">
       {/* B3 — HERO SECTION */}
       <section className="bg-white border-b border-[#E8E5DE] pt-8 pb-12 sm:pt-12 sm:pb-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -177,7 +177,7 @@ export const ArthritisBoneHealthPage: React.FC = () => {
       {/* S01 & S02 — HEALTHY JOINTS, STRONG BONES & WHAT IS ARTHRITIS */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S01</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Healthy Joints and Strong Bones
@@ -212,7 +212,7 @@ export const ArthritisBoneHealthPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S02</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               What Is Arthritis?
@@ -299,7 +299,7 @@ export const ArthritisBoneHealthPage: React.FC = () => {
       {/* S05 & S06 — OTHER CAUSES & SYMPTOM RECOGNITION */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S05 & S06</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Understanding Joint Pain & Common Symptoms
@@ -381,7 +381,7 @@ export const ArthritisBoneHealthPage: React.FC = () => {
       {/* S09, S10, S11 — OSTEOPOROSIS & FRAGILITY FRACTURES */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S09 & S10</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Osteoporosis: The Silent Loss of Bone Density
@@ -404,7 +404,7 @@ export const ArthritisBoneHealthPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S11</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               What Is a Fragility Fracture?
@@ -478,7 +478,7 @@ export const ArthritisBoneHealthPage: React.FC = () => {
       {/* S16, S17, S18, S19, S20 — EVIDENCE-BASED NON-SURGICAL CARE & SURGERY TIMING */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S16 – S19</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Non-Surgical Management & Bone Protection
@@ -516,7 +516,7 @@ export const ArthritisBoneHealthPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S20</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               When Is Joint Replacement Surgery Considered?

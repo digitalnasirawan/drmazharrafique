@@ -122,7 +122,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
   ];
 
   return (
-    <div className="bg-[#FAF8F2] text-slate-800 font-['Raleway',sans-serif]">
+    <div className="bg-white text-[#111111] font-['Raleway',sans-serif]">
       {/* B3 — HERO SECTION */}
       <section className="bg-white border-b border-[#E8E5DE] pt-8 pb-12 sm:pt-12 sm:pb-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -166,7 +166,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
       {/* S01 & S02 — UNDERSTANDING CARE & ANATOMY */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S01</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Understanding Foot, Ankle and Children’s Orthopaedic Care
@@ -181,7 +181,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S02</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               How Do Your Feet and Ankles Help You Move?
@@ -224,7 +224,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
       {/* S03, S04, S05 — COMMON ADULT FOOT & ANKLE CONDITIONS */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S03, S04 & S05</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Common Conditions Affecting the Foot & Ankle
@@ -266,7 +266,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
       {/* S06, S07, S08, S09, S10 — SPRAINS, FRACTURES, TENDONS, BUNIONS, FLAT FEET */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S06 TO S10</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Key Foot & Ankle Problems Explained
@@ -314,7 +314,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
       {/* S11, S12 — PAEDIATRIC ORTHOPAEDICS & CLUBFOOT */}
       <section className="py-12 border-b border-[#E8E5DE] bg-emerald-50/20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S11 & S12</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Paediatric Orthopaedics & Clubfoot Management
@@ -349,7 +349,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
       {/* S13 — CHILDHOOD WALKING PATTERNS COMPARISON TABLE */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S13</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               When Should Parents Worry About How a Child Walks?
@@ -402,7 +402,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
               <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S14</span>
               <h2 className="text-xl sm:text-2xl font-bold text-[#111111] mt-1 mb-3" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
                 Bow Legs & Knock Knees
@@ -420,7 +420,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
               <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S15</span>
               <h2 className="text-xl sm:text-2xl font-bold text-[#111111] mt-1 mb-3" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
                 Growth Plate Injuries
@@ -441,7 +441,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
       {/* S16 — WHEN TO SEE A DOCTOR & RED FLAGS */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S16</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               When Should You See an Orthopaedic Doctor?
@@ -482,7 +482,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
       {/* S17, S18, S19 — DIAGNOSIS, NON-SURGICAL & SURGICAL CARE */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S17, S18 & S19</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Diagnosis and Balanced Treatment Pathways
@@ -525,7 +525,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Card 1 */}
-            <div className="bg-white rounded-2xl p-6 border border-[#E8E5DE] hover:border-[#BE8C1D] transition-all flex flex-col justify-between">
+            <div className="bg-white rounded-2xl p-6 border border-[#E8E5DE] shadow-xs hover:border-[#BE8C1D] transition-all flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider block mb-1">Adult Care</span>
                 <h3 className="text-lg font-bold text-[#111111] mb-2" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
@@ -545,7 +545,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-white rounded-2xl p-6 border border-[#E8E5DE] hover:border-[#BE8C1D] transition-all flex flex-col justify-between">
+            <div className="bg-white rounded-2xl p-6 border border-[#E8E5DE] shadow-xs hover:border-[#BE8C1D] transition-all flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider block mb-1">Deformity Correction</span>
                 <h3 className="text-lg font-bold text-[#111111] mb-2" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
@@ -565,7 +565,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="bg-white rounded-2xl p-6 border border-[#E8E5DE] hover:border-[#BE8C1D] transition-all flex flex-col justify-between">
+            <div className="bg-white rounded-2xl p-6 border border-[#E8E5DE] shadow-xs hover:border-[#BE8C1D] transition-all flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider block mb-1">Children's Orthopaedics</span>
                 <h3 className="text-lg font-bold text-[#111111] mb-2" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
@@ -590,7 +590,7 @@ export const FootAnklePaediatricPage: React.FC = () => {
       {/* S21 — DOCTOR PROFILE & 5 RELATED LINKS */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S21</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Consultant Orthopaedic Surgeon in Lahore

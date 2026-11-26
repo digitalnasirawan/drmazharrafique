@@ -28,7 +28,7 @@ export const BrandLogo: React.FC<BrandLogoProps> = ({
             ? 'w-11 h-11 bg-white/10 border border-[#BE8C1D]/40 text-[#BE8C1D] group-hover:bg-[#BE8C1D] group-hover:text-black' 
             : isCompact
               ? 'w-9 h-9 bg-[#FAF8F2] border border-[#E8E5DE] text-[#BE8C1D] group-hover:border-[#BE8C1D]'
-              : 'w-11 h-11 sm:w-12 sm:h-12 bg-gradient-to-br from-[#FAF8F2] via-white to-[#FAF8F2] border border-[#BE8C1D]/50 text-[#BE8C1D] shadow-xs group-hover:border-[#BE8C1D] group-hover:shadow-md'
+              : 'w-11 h-11 sm:w-12 sm:h-12 bg-gradient-to-br from-white via-white to-white border border-[#BE8C1D]/50 text-[#BE8C1D] shadow-xs group-hover:border-[#BE8C1D] group-hover:shadow-md'
         }`}
       >
         <svg 

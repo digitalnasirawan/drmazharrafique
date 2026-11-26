@@ -112,7 +112,7 @@ export const RevisionJointReplacementPage: React.FC = () => {
       </nav>
 
       {/* B3 — Hero Section */}
-      <section className="bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] border-b border-[#E8E5DE] py-12 lg:py-16">
+      <section className="bg-white border-b border-[#E8E5DE] py-12 lg:py-16">
         <div className="site-container">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             
@@ -231,7 +231,7 @@ export const RevisionJointReplacementPage: React.FC = () => {
       </section>
 
       {/* S02 — Why Might an Artificial Joint Develop Problems? */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-6">
             <div>
@@ -343,7 +343,7 @@ export const RevisionJointReplacementPage: React.FC = () => {
       </section>
 
       {/* S04 — Common Problems That Can Affect Artificial Joints */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -445,7 +445,7 @@ export const RevisionJointReplacementPage: React.FC = () => {
       </section>
 
       {/* S06 — Can Problems After Joint Replacement Be Treated Without Revision Surgery? */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -550,7 +550,7 @@ export const RevisionJointReplacementPage: React.FC = () => {
       </section>
 
       {/* S09 & S10 — Surgery Details & Differences */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -665,7 +665,7 @@ export const RevisionJointReplacementPage: React.FC = () => {
       </section>
 
       {/* S12 — Recovery After Revision Joint Replacement */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -750,7 +750,7 @@ export const RevisionJointReplacementPage: React.FC = () => {
       </section>
 
       {/* S14 — Consultant Orthopaedic Surgeon in Lahore */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center p-8 rounded-2xl bg-white border border-[#E8E5DE]">
@@ -849,7 +849,7 @@ export const RevisionJointReplacementPage: React.FC = () => {
       </section>
 
       {/* S16 — Orthopaedic Consultation in Lahore */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
@@ -969,7 +969,7 @@ export const RevisionJointReplacementPage: React.FC = () => {
       {/* S17 — Get Your Joint Replacement Concerns Checked */}
       <section className="py-14 lg:py-20 bg-white">
         <div className="site-container">
-          <div className="max-w-3xl mx-auto text-center space-y-6 p-8 sm:p-12 rounded-2xl bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] border border-[#E8E5DE] shadow-sm">
+          <div className="max-w-3xl mx-auto text-center space-y-6 p-8 sm:p-12 rounded-2xl bg-white border border-[#E8E5DE] shadow-sm">
             <h2 
               className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#111111]"
               style={{ fontFamily: "'Maven Pro', sans-serif" }}

@@ -83,7 +83,7 @@ export const QuickAppointmentModal: React.FC<QuickAppointmentModalProps> = ({
         onClick={(e) => e.stopPropagation()}
       >
         {/* Modal Header */}
-        <div className="relative px-6 py-5 bg-gradient-to-r from-[#FAF8F2] via-white to-[#FAF8F2] border-b border-[#E8E5DE] flex items-center justify-between">
+        <div className="relative px-6 py-5 bg-white border-b border-[#E8E5DE] flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 rounded-xl bg-[#BE8C1D]/15 border border-[#BE8C1D]/30 flex items-center justify-center text-[#BE8C1D]">
               <WhatsAppIcon className="w-5 h-5 text-[#BE8C1D]" />

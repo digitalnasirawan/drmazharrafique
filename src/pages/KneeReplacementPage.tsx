@@ -99,7 +99,7 @@ export const KneeReplacementPage: React.FC = () => {
       </nav>
 
       {/* B3 — Hero Section */}
-      <section className="bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] border-b border-[#E8E5DE] py-12 lg:py-16">
+      <section className="bg-white border-b border-[#E8E5DE] py-12 lg:py-16">
         <div className="site-container">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             
@@ -235,7 +235,7 @@ export const KneeReplacementPage: React.FC = () => {
       </section>
 
       {/* S02 — Signs and Symptoms of Severe Knee Problems */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -367,7 +367,7 @@ export const KneeReplacementPage: React.FC = () => {
       </section>
 
       {/* S04 — How Is Knee Pain Diagnosed? */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -506,7 +506,7 @@ export const KneeReplacementPage: React.FC = () => {
       </section>
 
       {/* S06 — Types of Knee Replacement */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -645,7 +645,7 @@ export const KneeReplacementPage: React.FC = () => {
       </section>
 
       {/* S08 — Possible Benefits and Risks */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -791,7 +791,7 @@ export const KneeReplacementPage: React.FC = () => {
       </section>
 
       {/* S10 — Preparing for Knee Replacement Surgery */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -929,7 +929,7 @@ export const KneeReplacementPage: React.FC = () => {
       </section>
 
       {/* S12 — Related Orthopaedic Services */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8">
             <div>
@@ -1071,7 +1071,7 @@ export const KneeReplacementPage: React.FC = () => {
       </section>
 
       {/* B5 — Frequently Asked Questions */}
-      <section className="py-12 lg:py-16 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 lg:py-16 bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-3xl mx-auto space-y-8">
             <div className="text-center space-y-2">
@@ -1124,7 +1124,7 @@ export const KneeReplacementPage: React.FC = () => {
       {/* S14 — Final Appointment CTA */}
       <section className="py-14 lg:py-20 bg-white">
         <div className="site-container">
-          <div className="max-w-3xl mx-auto text-center space-y-6 p-8 sm:p-12 rounded-2xl bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] border border-[#E8E5DE] shadow-sm">
+          <div className="max-w-3xl mx-auto text-center space-y-6 p-8 sm:p-12 rounded-2xl bg-white border border-[#E8E5DE] shadow-sm">
             <h2 
               className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#111111]"
               style={{ fontFamily: "'Maven Pro', sans-serif" }}

@@ -134,7 +134,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </nav>
 
       {/* B3 — HERO SECTION */}
-      <section className="relative bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] py-12 sm:py-16 border-b border-[#E8E5DE]">
+      <section className="relative bg-white py-12 sm:py-16 border-b border-[#E8E5DE]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-4">
@@ -206,7 +206,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* S02. COMMON CONDITIONS THAT AFFECT THE SHOULDER */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Common Conditions That Affect the Shoulder
@@ -282,7 +282,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* S04. WHAT IS SHOULDER INSTABILITY? */}
-      <section id="instability" className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section id="instability" className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Is Shoulder Instability?
@@ -331,7 +331,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* S06. WHAT IS A SHOULDER LABRAL TEAR? */}
-      <section id="labral-tear" className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section id="labral-tear" className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Is a Shoulder Labral Tear?
@@ -378,7 +378,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* S08. CAN ARTHRITIS CAUSE SHOULDER PAIN? */}
-      <section id="arthritis" className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section id="arthritis" className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Can Arthritis Cause Shoulder Pain?
@@ -426,7 +426,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* S10. WHEN SHOULD YOU GET SHOULDER PAIN CHECKED? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-6" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             When Should You Get Shoulder Pain Checked?
@@ -493,7 +493,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* S12. CAN SHOULDER PROBLEMS IMPROVE WITHOUT SURGERY? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Can Shoulder Problems Improve Without Surgery?
@@ -536,7 +536,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* S14. TYPES OF SHOULDER SURGERY */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Types of Shoulder Surgery
@@ -614,7 +614,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* S16. HOW CAN YOU PREPARE FOR SHOULDER SURGERY? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             How Can You Prepare for Shoulder Surgery?
@@ -667,7 +667,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* S18. RECOVERY AFTER SHOULDER SURGERY */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Recovery After Shoulder Surgery
@@ -701,7 +701,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* S20. WHEN CAN YOU RETURN TO DAILY ACTIVITIES? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             When Can You Return to Daily Activities?
@@ -749,7 +749,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* S22. EXPLORE RELATED SHOULDER AND UPPER LIMB TREATMENTS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#111111] mb-6 text-center" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Explore Related Shoulder and Upper Limb Treatments
@@ -813,7 +813,7 @@ export const ShoulderSurgeryPage: React.FC = () => {
       </section>
 
       {/* B5. FAQS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-2">

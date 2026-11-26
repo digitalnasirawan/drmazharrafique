@@ -122,7 +122,7 @@ export const SpineBackPainPage: React.FC = () => {
   ];
 
   return (
-    <div className="bg-[#FAF8F2] text-slate-800 font-['Raleway',sans-serif]">
+    <div className="bg-white text-[#111111] font-['Raleway',sans-serif]">
       {/* B3 — HERO SECTION */}
       <section className="bg-white border-b border-[#E8E5DE] pt-8 pb-12 sm:pt-12 sm:pb-16">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -166,7 +166,7 @@ export const SpineBackPainPage: React.FC = () => {
       {/* S01 & S02 — UNDERSTANDING & SPINE ANATOMY */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S01</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Understanding Back, Neck and Spine Problems
@@ -181,7 +181,7 @@ export const SpineBackPainPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S02</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               How Does Your Spine Support Your Body?
@@ -224,7 +224,7 @@ export const SpineBackPainPage: React.FC = () => {
       {/* S03, S04, S05 — CAUSES, LOWER BACK PAIN & NECK PAIN */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S03 & S04</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               What Causes Lower Back Pain?
@@ -253,7 +253,7 @@ export const SpineBackPainPage: React.FC = () => {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S05</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               What Causes Neck Pain?
@@ -273,7 +273,7 @@ export const SpineBackPainPage: React.FC = () => {
       {/* S06, S07, S08, S09, S10 — SCIATICA, SLIPPED DISC, STENOSIS & AGING */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S06 TO S10</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Common Spinal Conditions Explained
@@ -358,7 +358,7 @@ export const SpineBackPainPage: React.FC = () => {
           </div>
 
           {/* S11 Routine Signs */}
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S11</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               When Should You See a Doctor for Back or Neck Pain?
@@ -383,7 +383,7 @@ export const SpineBackPainPage: React.FC = () => {
       {/* S13, S14, S15, S16 — ASSESSMENT, SCANS & NON-SURGICAL CARE */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S13 TO S16</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Clinical Assessment, Imaging & Non-Surgical Care
@@ -417,7 +417,7 @@ export const SpineBackPainPage: React.FC = () => {
       {/* S17, S18, S19 — SPECIALIST REFERRAL & SURGICAL INDICATIONS */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S17 TO S19</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               When Is Spine Surgery Considered?
@@ -449,7 +449,7 @@ export const SpineBackPainPage: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Card 1 */}
-            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] hover:border-[#BE8C1D] transition-all flex flex-col justify-between">
+            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs hover:border-[#BE8C1D] transition-all flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider block mb-1">Surgical Guide</span>
                 <h3 className="text-xl font-bold text-[#111111] mb-2" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
@@ -469,7 +469,7 @@ export const SpineBackPainPage: React.FC = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] hover:border-[#BE8C1D] transition-all flex flex-col justify-between">
+            <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs hover:border-[#BE8C1D] transition-all flex flex-col justify-between">
               <div>
                 <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider block mb-1">Conservative Care</span>
                 <h3 className="text-xl font-bold text-[#111111] mb-2" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
@@ -494,7 +494,7 @@ export const SpineBackPainPage: React.FC = () => {
       {/* S21 — DOCTOR PROFILE & 5 RELATED SERVICES */}
       <section className="py-12 border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE]">
+          <div className="bg-white rounded-2xl p-6 sm:p-8 border border-[#E8E5DE] shadow-xs">
             <span className="text-xs font-bold text-[#BE8C1D] uppercase tracking-wider">SECTION S21</span>
             <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mt-1 mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
               Orthopaedic Consultation for Back & Neck Pain in Lahore

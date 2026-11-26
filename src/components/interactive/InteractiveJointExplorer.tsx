@@ -113,7 +113,7 @@ export const InteractiveJointExplorer: React.FC = () => {
     <div className="bg-white rounded-2xl border border-[#E8E5DE] shadow-sm overflow-hidden">
       
       {/* Explorer Top Tabs */}
-      <div className="p-4 sm:p-6 bg-gradient-to-r from-[#FAF8F2] via-white to-[#FAF8F2] border-b border-[#E8E5DE]">
+      <div className="p-4 sm:p-6 bg-white border-b border-[#E8E5DE]">
         <div className="flex items-center justify-between flex-wrap gap-2 mb-4">
           <div className="flex items-center gap-2">
             <Activity className="w-5 h-5 text-[#BE8C1D]" />

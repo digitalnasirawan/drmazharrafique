@@ -103,7 +103,7 @@ export const MeniscusRepairPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-[#111111] font-sans">
+    <div className="min-h-screen bg-white text-[#111111] font-['Raleway',sans-serif]">
       {/* Quick Appointment Modal */}
       <QuickAppointmentModal 
         isOpen={appointmentModalOpen} 
@@ -111,7 +111,7 @@ export const MeniscusRepairPage: React.FC = () => {
       />
 
       {/* B3 — HERO SECTION */}
-      <section className="relative bg-[#FAF8F2] border-b border-[#E8E5DE] py-14 md:py-20">
+      <section className="relative bg-white border-b border-[#E8E5DE] py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-7">
@@ -232,7 +232,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S02 — WHAT IS A MENISCUS TEAR? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">02</span>
@@ -314,7 +314,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S04 — WHAT CAUSES A MENISCUS TEAR? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">04</span>
@@ -393,7 +393,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S06 — WHEN SHOULD YOU GET YOUR KNEE CHECKED? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">06</span>
@@ -512,7 +512,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S08 — CAN A TORN MENISCUS IMPROVE WITHOUT SURGERY? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">08</span>
@@ -589,7 +589,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S10 — WHEN MIGHT A MENISCUS TEAR NEED REPAIR? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">10</span>
@@ -699,7 +699,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S12 — WHAT HAPPENS DURING MENISCUS REPAIR SURGERY? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">12</span>
@@ -765,7 +765,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S14 — BENEFITS AND RISKS OF MENISCUS REPAIR */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">14</span>
@@ -853,7 +853,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S16 — WHY IS REHABILITATION IMPORTANT? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">16</span>
@@ -915,7 +915,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S18 — HOW CAN YOU PREPARE FOR MENISCUS REPAIR? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">18</span>
@@ -1000,7 +1000,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S20 — WHAT TO EXPECT DURING YOUR KNEE CONSULTATION */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">20</span>
@@ -1104,7 +1104,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S22 — MENISCUS TEAR CONSULTATION IN LAHORE */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">22</span>
@@ -1199,7 +1199,7 @@ export const MeniscusRepairPage: React.FC = () => {
       </section>
 
       {/* S23 — GET YOUR KNEE INJURY CHECKED (FINAL CTA) */}
-      <section className="py-16 bg-[#FAF8F2]">
+      <section className="py-16 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Get Your Knee Injury Checked

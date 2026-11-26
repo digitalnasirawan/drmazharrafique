@@ -16,13 +16,13 @@ export const ConsultationCTA: React.FC<ConsultationCTAProps> = ({
   eyebrow = 'ORTHOPAEDIC CONSULTATION IN LAHORE',
   heading = 'Need Advice About an Orthopaedic Problem?',
   description = 'Book a direct consultation with Dr. Mazhar Rafique at BNI - Bashir NeuroSpine Institute. Discuss your symptoms, review radiographs, and evaluate surgical vs non-surgical care.',
-  bgAlt = true
+  bgAlt = false
 }) => {
   const [modalOpen, setModalOpen] = useState(false);
 
   return (
     <>
-      <section className={`section-padding border-y border-[#E8E5DE] ${bgAlt ? 'bg-[#FAF8F2]' : 'bg-[#FFFFFF]'}`}>
+      <section className="section-padding border-y border-[#E8E5DE] bg-[#FFFFFF]">
         <div className="site-container">
           <div className="max-w-3xl mx-auto text-center space-y-6">
             

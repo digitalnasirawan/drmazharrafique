@@ -126,7 +126,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </nav>
 
       {/* B3 — HERO SECTION */}
-      <section className="relative bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] py-12 sm:py-16 border-b border-[#E8E5DE]">
+      <section className="relative bg-white py-12 sm:py-16 border-b border-[#E8E5DE]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-4">
@@ -198,7 +198,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* S02 — WHAT HAPPENS WHEN A LIGAMENT TEARS? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Happens When a Ligament Tears?
@@ -274,7 +274,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* S04 — THE FOUR MAIN LIGAMENTS OF THE KNEE */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-3" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             The Four Main Ligaments of the Knee
@@ -348,7 +348,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* S06 — WHAT IS A PCL INJURY? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Is a PCL Injury?
@@ -414,7 +414,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* S08 — WHAT ARE LCL AND OUTER KNEE LIGAMENT INJURIES? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Are LCL and Outer Knee Ligament Injuries?
@@ -482,7 +482,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* S10 — COMMON SIGNS OF A LIGAMENT INJURY */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-6" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Common Signs of a Ligament Injury
@@ -572,7 +572,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* S12 — HOW DOES A DOCTOR CHECK A LIGAMENT INJURY? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-6" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             How Does a Doctor Check a Ligament Injury?
@@ -635,7 +635,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* S14 — WHEN MIGHT A LIGAMENT INJURY NEED RECONSTRUCTION? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             When Might a Ligament Injury Need Reconstruction?
@@ -741,7 +741,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* S16 — WHAT GRAFTS CAN BE USED FOR LIGAMENT RECONSTRUCTION? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             What Grafts Can Be Used for Ligament Reconstruction?
@@ -807,7 +807,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* S18 — BENEFITS AND RISKS OF LIGAMENT RECONSTRUCTION */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-6" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Benefits and Risks of Ligament Reconstruction
@@ -881,7 +881,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* S20 — REHABILITATION AFTER LIGAMENT SURGERY */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Rehabilitation After Ligament Surgery
@@ -953,7 +953,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* S22 — EXPLORE RELATED LIGAMENT AND SPORTS INJURY TREATMENTS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#111111] mb-6 text-center" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Explore Related Ligament and Sports Injury Treatments
@@ -1018,7 +1018,7 @@ export const LigamentReconstructionPage: React.FC = () => {
       </section>
 
       {/* B5 — FAQS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-2">

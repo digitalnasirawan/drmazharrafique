@@ -77,7 +77,7 @@ export const JointReplacementPage: React.FC = () => {
       {/* =========================================================================
           B3 — HERO SECTION
           ========================================================================= */}
-      <section className="bg-gradient-to-b from-[#FAF8F2] via-white to-white border-b border-[#E8E5DE] py-10 lg:py-16">
+      <section className="bg-white border-b border-[#E8E5DE] py-10 lg:py-16">
         <div className="site-container">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             
@@ -198,7 +198,7 @@ export const JointReplacementPage: React.FC = () => {
       {/* =========================================================================
           S02 — WHEN MIGHT YOU NEED JOINT REPLACEMENT?
           ========================================================================= */}
-      <section className="section-padding bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-3xl mx-auto space-y-6 text-left">
             <div>
@@ -310,7 +310,7 @@ export const JointReplacementPage: React.FC = () => {
       {/* =========================================================================
           S04 — TYPES OF JOINT REPLACEMENT SURGERY (5 CARDS)
           ========================================================================= */}
-      <section className="section-padding bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-8 text-left">
             <div>
@@ -474,7 +474,7 @@ export const JointReplacementPage: React.FC = () => {
       {/* =========================================================================
           S06 — HOW IS A JOINT PROBLEM CHECKED?
           ========================================================================= */}
-      <section className="section-padding bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-3xl mx-auto space-y-6 text-left">
             <div>
@@ -584,7 +584,7 @@ export const JointReplacementPage: React.FC = () => {
       {/* =========================================================================
           S08 — RECOVERY AFTER JOINT REPLACEMENT
           ========================================================================= */}
-      <section className="section-padding bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-3xl mx-auto space-y-6 text-left">
             <div>
@@ -686,7 +686,7 @@ export const JointReplacementPage: React.FC = () => {
       {/* =========================================================================
           S10 — EXPLORE RELATED ORTHOPAEDIC CARE
           ========================================================================= */}
-      <section className="section-padding bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-4xl mx-auto space-y-6 text-left">
             <div>
@@ -816,7 +816,7 @@ export const JointReplacementPage: React.FC = () => {
       {/* =========================================================================
           B5 — FREQUENTLY ASKED QUESTIONS (10 APPROVED QUESTIONS)
           ========================================================================= */}
-      <section className="section-padding bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-3xl mx-auto space-y-6 text-left">
             <div>
@@ -862,7 +862,7 @@ export const JointReplacementPage: React.FC = () => {
       {/* =========================================================================
           S12 — FINAL APPOINTMENT CTA
           ========================================================================= */}
-      <section className="section-padding bg-gradient-to-r from-[#FAF8F2] via-white to-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="section-padding bg-white border-b border-[#E8E5DE]">
         <div className="site-container">
           <div className="max-w-3xl mx-auto text-center space-y-5">
             <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-white border border-[#E8E5DE] text-xs font-bold text-[#BE8C1D] uppercase tracking-wider shadow-2xs">

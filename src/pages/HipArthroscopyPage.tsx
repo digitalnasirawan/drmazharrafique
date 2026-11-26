@@ -99,7 +99,7 @@ export const HipArthroscopyPage: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white text-[#111111] font-sans">
+    <div className="min-h-screen bg-white text-[#111111] font-['Raleway',sans-serif]">
       {/* Quick Appointment Modal */}
       <QuickAppointmentModal 
         isOpen={appointmentModalOpen} 
@@ -107,7 +107,7 @@ export const HipArthroscopyPage: React.FC = () => {
       />
 
       {/* B3 — HERO SECTION */}
-      <section className="relative bg-[#FAF8F2] border-b border-[#E8E5DE] py-14 md:py-20">
+      <section className="relative bg-white border-b border-[#E8E5DE] py-14 md:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-7">
@@ -232,7 +232,7 @@ export const HipArthroscopyPage: React.FC = () => {
       </section>
 
       {/* S02 — HOW DOES YOUR HIP JOINT WORK? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">02</span>
@@ -327,7 +327,7 @@ export const HipArthroscopyPage: React.FC = () => {
       </section>
 
       {/* S04 — WHAT IS HIP IMPINGEMENT? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">04</span>
@@ -439,7 +439,7 @@ export const HipArthroscopyPage: React.FC = () => {
       </section>
 
       {/* S06 — COMMON SIGNS OF HIP JOINT PROBLEMS */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">06</span>
@@ -543,7 +543,7 @@ export const HipArthroscopyPage: React.FC = () => {
       </section>
 
       {/* S08 — HOW DOES A DOCTOR CHECK YOUR HIP? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">08</span>
@@ -644,7 +644,7 @@ export const HipArthroscopyPage: React.FC = () => {
       </section>
 
       {/* S10 — WHEN MIGHT HIP ARTHROSCOPY BE NEEDED? */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">10</span>
@@ -739,7 +739,7 @@ export const HipArthroscopyPage: React.FC = () => {
       </section>
 
       {/* S12 — HIP ARTHROSCOPY VS HIP REPLACEMENT */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">12</span>
@@ -886,7 +886,7 @@ export const HipArthroscopyPage: React.FC = () => {
       </section>
 
       {/* S14 — RECOVERY AFTER HIP ARTHROSCOPY */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">14</span>
@@ -1019,7 +1019,7 @@ export const HipArthroscopyPage: React.FC = () => {
       </section>
 
       {/* S16 — CONSULTANT ORTHOPAEDIC SURGEON IN LAHORE */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">16</span>
@@ -1109,7 +1109,7 @@ export const HipArthroscopyPage: React.FC = () => {
       </section>
 
       {/* S18 — EXPLORE RELATED HIP & JOINT TREATMENTS */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-4">
             <span className="w-8 h-8 rounded-full bg-[#BE8C1D]/10 text-[#BE8C1D] flex items-center justify-center font-bold text-sm">18</span>
@@ -1234,7 +1234,7 @@ export const HipArthroscopyPage: React.FC = () => {
       </section>
 
       {/* B5 — FAQS SECTION */}
-      <section className="py-14 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-14 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-3">
@@ -1271,7 +1271,7 @@ export const HipArthroscopyPage: React.FC = () => {
       </section>
 
       {/* S20 — GET YOUR HIP PAIN CHECKED (FINAL CTA) */}
-      <section className="py-16 bg-[#FAF8F2]">
+      <section className="py-16 bg-white">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Get Your Hip Pain Checked

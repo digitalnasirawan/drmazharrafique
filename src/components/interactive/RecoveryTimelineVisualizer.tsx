@@ -151,7 +151,7 @@ export const RecoveryTimelineVisualizer: React.FC = () => {
     <div className="bg-white rounded-2xl border border-[#E8E5DE] shadow-sm overflow-hidden text-left">
       
       {/* Header */}
-      <div className="p-6 bg-gradient-to-r from-[#FAF8F2] via-white to-[#FAF8F2] border-b border-[#E8E5DE]">
+      <div className="p-6 bg-white border-b border-[#E8E5DE]">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
           <div>
             <div className="flex items-center gap-2 mb-1">

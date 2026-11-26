@@ -124,7 +124,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </nav>
 
       {/* B3 — HERO SECTION */}
-      <section className="relative bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] py-12 sm:py-16 border-b border-[#E8E5DE]">
+      <section className="relative bg-white py-12 sm:py-16 border-b border-[#E8E5DE]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-4">
@@ -191,7 +191,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </section>
 
       {/* S02: WHO SHOULD CONSIDER A SPORTS INJURY CONSULTATION? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Who Should Consider a Sports Injury Consultation?
@@ -252,7 +252,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </section>
 
       {/* S04: ASSESSMENT AFTER A SUDDEN SPORTS INJURY */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Assessment After a Sudden Sports Injury
@@ -304,7 +304,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </section>
 
       {/* S06: ASSESSMENT OF KNEE SPORTS INJURIES */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Assessment of Knee Sports Injuries
@@ -348,7 +348,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </section>
 
       {/* S08: CHECKING LIGAMENT AND TENDON INJURIES */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Checking Ligament and Tendon Injuries
@@ -402,7 +402,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </section>
 
       {/* S10: HOW DOES A DOCTOR EXAMINE A SPORTS INJURY? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             How Does a Doctor Examine a Sports Injury?
@@ -456,7 +456,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </section>
 
       {/* S12: UNDERSTANDING YOUR SPORTS INJURY DIAGNOSIS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Understanding Your Sports Injury Diagnosis
@@ -512,7 +512,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </section>
 
       {/* S14: WHEN MIGHT A SPORTS INJURY NEED SURGERY? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             When Might a Sports Injury Need Surgery?
@@ -552,7 +552,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </section>
 
       {/* S16: HOW IS READINESS TO RETURN TO SPORTS ASSESSED? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             How Is Readiness to Return to Sports Assessed?
@@ -602,7 +602,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </section>
 
       {/* S18: HOW CAN YOU LOWER YOUR RISK OF SPORTS INJURIES? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             How Can You Lower Your Risk of Sports Injuries?
@@ -657,7 +657,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </section>
 
       {/* S20: CONSULTANT ORTHOPAEDIC SURGEON IN LAHORE */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="p-6 rounded-2xl bg-white border border-[#E8E5DE]">
             <h2 className="text-2xl font-bold text-[#111111] mb-2" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
@@ -717,7 +717,7 @@ export const SportsMedicineConsultationPage: React.FC = () => {
       </section>
 
       {/* S22: ARRANGE AN ORTHOPAEDIC SPORTS INJURY CONSULTATION IN LAHORE */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="p-6 rounded-2xl bg-white border border-[#E8E5DE] text-center">
             <h2 className="text-2xl font-bold text-[#111111] mb-3" style={{ fontFamily: "'Maven Pro', sans-serif" }}>

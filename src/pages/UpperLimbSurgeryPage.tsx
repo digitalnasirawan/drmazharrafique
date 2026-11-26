@@ -125,7 +125,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </nav>
 
       {/* B3 — HERO SECTION */}
-      <section className="relative bg-gradient-to-b from-[#FAF8F2] to-[#FFFFFF] py-12 sm:py-16 border-b border-[#E8E5DE]">
+      <section className="relative bg-white py-12 sm:py-16 border-b border-[#E8E5DE]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-4">
@@ -197,7 +197,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </section>
 
       {/* S02 — COMMON UPPER LIMB CONDITIONS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Common Shoulder, Arm, Wrist and Hand Problems
@@ -279,7 +279,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </section>
 
       {/* S04 — ROTATOR CUFF INJURIES */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Understanding Rotator Cuff Injuries
@@ -325,7 +325,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </section>
 
       {/* S06 — HAND AND WRIST PROBLEMS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Common Hand and Wrist Conditions
@@ -385,7 +385,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </section>
 
       {/* S08 — ELBOW CONDITIONS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Common Elbow Problems
@@ -450,7 +450,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </section>
 
       {/* S10 — WHEN SHOULD YOU SEEK URGENT CARE? */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="p-6 rounded-2xl border-2 border-red-300 bg-red-50/50">
             <h2 className="text-xl sm:text-2xl font-bold text-red-950 mb-3 flex items-center gap-2" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
@@ -504,7 +504,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </section>
 
       {/* S12 — NON-SURGICAL TREATMENT */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Can Upper Limb Problems Improve Without Surgery?
@@ -556,7 +556,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </section>
 
       {/* S14 — UPPER LIMB TREATMENT SERVICES */}
-      <section id="treatments" className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section id="treatments" className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#111111] mb-6 text-center" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Explore Shoulder, Hand &amp; Upper Limb Treatments
@@ -648,7 +648,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </section>
 
       {/* S16 — RECOVERY AFTER UPPER LIMB TREATMENT */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Recovery After Shoulder, Hand or Elbow Treatment
@@ -683,7 +683,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </section>
 
       {/* S18 — EVERYDAY ACTIVITIES AND UPPER LIMB HEALTH */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-[#111111] mb-4" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             How Upper Limb Problems Affect Daily Life
@@ -748,7 +748,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </section>
 
       {/* S20 — RELATED ORTHOPAEDIC SERVICES */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[#111111] mb-6 text-center" style={{ fontFamily: "'Maven Pro', sans-serif" }}>
             Explore Related Orthopaedic Treatments
@@ -811,7 +811,7 @@ export const UpperLimbSurgeryPage: React.FC = () => {
       </section>
 
       {/* B5 — FAQS */}
-      <section className="py-12 bg-[#FAF8F2] border-b border-[#E8E5DE]">
+      <section className="py-12 bg-white border-b border-[#E8E5DE]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8">
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-[#BE8C1D]/10 text-[#BE8C1D] mb-2">

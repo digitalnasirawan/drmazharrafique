@@ -11,7 +11,7 @@ export const LegalPage: React.FC = () => {
     <div className="flex flex-col w-full">
       
       {/* Header Banner */}
-      <section className="bg-[#FAF8F2] border-b border-[#E8E5DE] py-10 lg:py-14">
+      <section className="bg-white border-b border-[#E8E5DE] py-10 lg:py-14">
         <div className="site-container">
           <div className="max-w-3xl space-y-3">
             <nav className="flex items-center gap-1.5 text-xs text-[#475569] mb-2">
