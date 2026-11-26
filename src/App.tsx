@@ -56,6 +56,9 @@ import { FootAnkleSurgeryPage } from './pages/FootAnkleSurgeryPage';
 import { SpineBackPainPage } from './pages/SpineBackPainPage';
 import { SpineSurgeryPage } from './pages/SpineSurgeryPage';
 import { BackPainTreatmentPage } from './pages/BackPainTreatmentPage';
+import { ArthritisBoneHealthPage } from './pages/ArthritisBoneHealthPage';
+import { ArthritisTreatmentPage } from './pages/ArthritisTreatmentPage';
+import { OsteoporosisManagementPage } from './pages/OsteoporosisManagementPage';
 
 const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.ReactElement => {
   if (item.pageId === 'P05' || item.canonicalPath === '/joint-replacement-surgery/') {
@@ -147,6 +150,15 @@ const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.Reac
   }
   if (item.pageId === 'P38' || item.canonicalPath === '/back-pain-treatment/') {
     return <BackPainTreatmentPage />;
+  }
+  if (item.pageId === 'P39' || item.canonicalPath === '/arthritis-bone-health/') {
+    return <ArthritisBoneHealthPage />;
+  }
+  if (item.pageId === 'P40' || item.canonicalPath === '/arthritis-treatment/') {
+    return <ArthritisTreatmentPage />;
+  }
+  if (item.pageId === 'P41' || item.canonicalPath === '/osteoporosis-management/') {
+    return <OsteoporosisManagementPage />;
   }
   return getComponentForTemplate(item.template);
 };
