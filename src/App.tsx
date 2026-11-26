@@ -47,6 +47,9 @@ import { RotatorCuffRepairPage } from './pages/RotatorCuffRepairPage';
 import { CarpalTunnelReleasePage } from './pages/CarpalTunnelReleasePage';
 import { HandWristSurgeryPage } from './pages/HandWristSurgeryPage';
 import { ElbowSurgeryPage } from './pages/ElbowSurgeryPage';
+import { FractureTraumaSurgeryPage } from './pages/FractureTraumaSurgeryPage';
+import { FractureCarePage } from './pages/FractureCarePage';
+import { BoneFractureRepairPage } from './pages/BoneFractureRepairPage';
 
 const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.ReactElement => {
   if (item.pageId === 'P05' || item.canonicalPath === '/joint-replacement-surgery/') {
@@ -111,6 +114,15 @@ const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.Reac
   }
   if (item.pageId === 'P27' || item.canonicalPath === '/elbow-surgery/') {
     return <ElbowSurgeryPage />;
+  }
+  if (item.pageId === 'P28' || item.canonicalPath === '/fracture-trauma-surgery/') {
+    return <FractureTraumaSurgeryPage />;
+  }
+  if (item.pageId === 'P29' || item.canonicalPath === '/fracture-treatment/') {
+    return <FractureCarePage />;
+  }
+  if (item.pageId === 'P30' || item.canonicalPath === '/bone-fracture-repair/') {
+    return <BoneFractureRepairPage />;
   }
   return getComponentForTemplate(item.template);
 };
