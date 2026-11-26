@@ -50,6 +50,9 @@ import { ElbowSurgeryPage } from './pages/ElbowSurgeryPage';
 import { FractureTraumaSurgeryPage } from './pages/FractureTraumaSurgeryPage';
 import { FractureCarePage } from './pages/FractureCarePage';
 import { BoneFractureRepairPage } from './pages/BoneFractureRepairPage';
+import { OrthopaedicTraumaSurgeryPage } from './pages/OrthopaedicTraumaSurgeryPage';
+import { FootAnklePaediatricPage } from './pages/FootAnklePaediatricPage';
+import { FootAnkleSurgeryPage } from './pages/FootAnkleSurgeryPage';
 
 const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.ReactElement => {
   if (item.pageId === 'P05' || item.canonicalPath === '/joint-replacement-surgery/') {
@@ -123,6 +126,15 @@ const getComponentForRoute = (item: (typeof routesRegistry)[number]): React.Reac
   }
   if (item.pageId === 'P30' || item.canonicalPath === '/bone-fracture-repair/') {
     return <BoneFractureRepairPage />;
+  }
+  if (item.pageId === 'P31' || item.canonicalPath === '/orthopaedic-trauma-surgery/') {
+    return <OrthopaedicTraumaSurgeryPage />;
+  }
+  if (item.pageId === 'P32' || item.canonicalPath === '/foot-ankle-paediatric-orthopaedics/') {
+    return <FootAnklePaediatricPage />;
+  }
+  if (item.pageId === 'P33' || item.canonicalPath === '/foot-ankle-surgery/') {
+    return <FootAnkleSurgeryPage />;
   }
   return getComponentForTemplate(item.template);
 };
